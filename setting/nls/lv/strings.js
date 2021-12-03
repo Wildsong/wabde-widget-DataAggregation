@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Šo logrīku var izmantot, lai apstrādātu un iesniegtu datus no faila kartes slānī.<br/> <br/> Vērtības failā jāatdala ar komatu, tabulatoru, semikolu vai vertikālu joslu.",
   "noTargetLayerConfiguredErrorMsg": "Nav konfigurēts neviens mērķa slānis",
   "noFieldsForTargetLayer": "Slāņa iestatījumi nav norādīti mērķa slānim",
-  "locationSettingsNotConfigured": "Novietojuma iestatījumi nav konfigurēti pareizi"
+  "locationSettingsNotConfigured": "Novietojuma iestatījumi nav konfigurēti pareizi",
+  "questionMark": "?"
 });

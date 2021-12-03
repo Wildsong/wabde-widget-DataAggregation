@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Este widget irá contribuir para o processamento e apresentação de dados de um ficheiro para a camada selecionada no mapa.<br/> <br/> Os valores incluídos no ficheiro devem estar delimitados por vírgulas, separadores, pontos-e-vírgulas ou barras verticais.",
   "noTargetLayerConfiguredErrorMsg": "Nenhuma layer alvo configurada",
   "noFieldsForTargetLayer": "As definições da layer não estão definidas para a layer alvo",
-  "locationSettingsNotConfigured": "As definições de localização não estão corretamente configuradas"
+  "locationSettingsNotConfigured": "As definições de localização não estão corretamente configuradas",
+  "questionMark": "?"
 });

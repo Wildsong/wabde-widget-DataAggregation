@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Ovaj vidžet će pomoći u obradi i prenosu podataka iz datoteke u izabrani sloj na mapi.<br/> <br/> Vrednosti u okviru datoteke moraju da se odvoje zapetom, tabulatorom, tačka zapetom ili vertikalnom crtom.",
   "noTargetLayerConfiguredErrorMsg": "Nema podešenog ciljanog sloja",
   "noFieldsForTargetLayer": "Podešavanja sloja nisu definisana za ciljani sloj",
-  "locationSettingsNotConfigured": "Podešavanja lokacije nisu pravilno postavljena"
+  "locationSettingsNotConfigured": "Podešavanja lokacije nisu pravilno postavljena",
+  "questionMark": "?"
 });

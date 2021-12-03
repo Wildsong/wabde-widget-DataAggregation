@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Aquest widget us ajudarà a processar i enviar dades d'un fitxer a la capa del mapa seleccionada.<br/> <br/> Els valors del fitxer han d'estar delimitats per comes, punts i coma, tabuladors o barres verticals.",
   "noTargetLayerConfiguredErrorMsg": "No s'ha configurat cap capa de destinació",
   "noFieldsForTargetLayer": "No s'ha definit la configuració de capa de la capa de destinació",
-  "locationSettingsNotConfigured": "La configuració d'ubicació no s'ha definit correctament"
+  "locationSettingsNotConfigured": "La configuració d'ubicació no s'ha definit correctament",
+  "questionMark": "?"
 });

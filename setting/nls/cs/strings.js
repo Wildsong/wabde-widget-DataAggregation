@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Tento widget napomáhá se zpracováním a odesíláním dat ze souboru do vybrané vrstvy v mapě.<br/> <br/> Hodnoty v souboru musí být odděleny čárkou, tabulátorem středníkem nebo svislou čarou.",
   "noTargetLayerConfiguredErrorMsg": "Není nakonfigurována cílová vrstva",
   "noFieldsForTargetLayer": "Pro tuto cílovou vrstvu nebylo definováno nastavení vrstvy",
-  "locationSettingsNotConfigured": "Nastavení umístění nejsou správně nakonfigurována"
+  "locationSettingsNotConfigured": "Nastavení umístění nejsou správně nakonfigurována",
+  "questionMark": "?"
 });

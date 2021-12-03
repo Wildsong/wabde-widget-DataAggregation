@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "سيساعدك عنصر واجهة المستخدم هذا في معالجة البيانات وإرسالها من ملف إلى الطبقة المحددة في الخريطة.<br/> <br/> يجب تحديد القيم داخل الملف بفاصلة أو علامة جدولة أو فاصلة منقوطة أو شريط رأسي.",
   "noTargetLayerConfiguredErrorMsg": "لم يتم تكوين طبقة هدف",
   "noFieldsForTargetLayer": "لم تُحدد إعدادات الطبقة للطبقة الهدف",
-  "locationSettingsNotConfigured": "إعدادات الموقع غير مكونة على النحو الملائم."
+  "locationSettingsNotConfigured": "إعدادات الموقع غير مكونة على النحو الملائم.",
+  "questionMark": "؟"
 });

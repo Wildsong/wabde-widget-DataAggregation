@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Ce widget fournira de l’aide lors du traitement et de l’envoi de données depuis un fichier vers la couche sélectionnée dans la carte.<br/> <br/> Les valeurs au sein du fichier doivent être séparées par des virgules, des tabulations, des points-virgules ou des barres verticales.",
   "noTargetLayerConfiguredErrorMsg": "Aucune couche cible configurée",
   "noFieldsForTargetLayer": "Les paramètres de couche ne sont pas définis pour la couche cible",
-  "locationSettingsNotConfigured": "Les paramètres de localisation ne sont pas correctement configurés"
+  "locationSettingsNotConfigured": "Les paramètres de localisation ne sont pas correctement configurés",
+  "questionMark": "?"
 });

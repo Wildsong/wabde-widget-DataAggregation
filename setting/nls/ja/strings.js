@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "このウィジェットは、ファイルからマップ内で選択したレイヤーへのデータの処理および送信を支援します。<br/> <br/> ファイル内の値は、カンマ、タブ、セミコロン、または縦棒で区切る必要があります。",
   "noTargetLayerConfiguredErrorMsg": "ターゲット レイヤーが構成されていません",
   "noFieldsForTargetLayer": "ターゲット レイヤーのレイヤー設定が定義されていません",
-  "locationSettingsNotConfigured": "位置設定が適切に構成されていません"
+  "locationSettingsNotConfigured": "位置設定が適切に構成されていません",
+  "questionMark": "？"
 });

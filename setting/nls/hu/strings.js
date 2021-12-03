@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Ez a widget segíti a fájlokból származó adatok feldolgozását és elküldését a térképen lévő kiválasztott rétegbe.<br/> <br/> A fájlban az értékeket vesszővel, tabulátorral, pontosvesszővel vagy függőleges vonallal kell tagolni.",
   "noTargetLayerConfiguredErrorMsg": "Nincs konfigurálva célréteg.",
   "noFieldsForTargetLayer": "Nincsenek meghatározva a célréteg rétegbeállításai.",
-  "locationSettingsNotConfigured": "A helybeállítások nincsenek megfelelően konfigurálva."
+  "locationSettingsNotConfigured": "A helybeállítások nincsenek megfelelően konfigurálva.",
+  "questionMark": "?"
 });

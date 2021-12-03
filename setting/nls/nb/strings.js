@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Dette miniprogrammet gjør det enklere å behandle og sende data fra en fil til laget som er valgt i kartet.<br/> <br/> Verdiene i filen må være skilt med komma, tabulator, semikolon eller loddrett strek.",
   "noTargetLayerConfiguredErrorMsg": "Det er ikke konfigurert et mållag",
   "noFieldsForTargetLayer": "Det er ikke definert laginnstillinger for mållaget",
-  "locationSettingsNotConfigured": "Lokasjonsinnstillingene er ikke riktig konfigurert"
+  "locationSettingsNotConfigured": "Lokasjonsinnstillingene er ikke riktig konfigurert",
+  "questionMark": "?"
 });

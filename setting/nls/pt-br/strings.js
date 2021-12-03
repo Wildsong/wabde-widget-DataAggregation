@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Este widget ajudará no processamento e envio de dados de um arquivo para a camada selecionada no mapa.<br/> <br/> Os valores no arquivo devem ser delimitados por vírgula, tabulação, ponto e vírgula ou barra vertical.",
   "noTargetLayerConfiguredErrorMsg": "Nenhuma camada de destino configurada",
   "noFieldsForTargetLayer": "As configurações da camada não estão definidas para a camada de destino",
-  "locationSettingsNotConfigured": "As configurações de localização não estão configuradas corretamente"
+  "locationSettingsNotConfigured": "As configurações de localização não estão configuradas corretamente",
+  "questionMark": "?"
 });

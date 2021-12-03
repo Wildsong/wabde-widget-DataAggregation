@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "See vidin aitab töödelda ja edastada andmeid failist kaardil valitud kihile.<br/> <br/> Failis olevad väärtused tuleb eraldada koma, tabeldusmärgi, semikooloni või püstkriipsuga.",
   "noTargetLayerConfiguredErrorMsg": "Sihtkihti pole konfigureeritud",
   "noFieldsForTargetLayer": "Sihtkihi kihiseaded on määratlemata",
-  "locationSettingsNotConfigured": "Asukohaseaded pole õigesti konfigureeritud"
+  "locationSettingsNotConfigured": "Asukohaseaded pole õigesti konfigureeritud",
+  "questionMark": "?"
 });

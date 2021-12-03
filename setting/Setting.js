@@ -380,7 +380,6 @@ define([
             title: this.nls.noFields
           }, tr.editLayerFields);
         }
-        tr._editAction = query('.action-item', this.layerList.domNode)[0];
       },
 
       _initLocationOptions: function () {
@@ -494,7 +493,6 @@ define([
         tr.layerInfo = configLayerInfo || defaultLayerInfo;
         this._validLayer = true;
         this._updateOk();
-        this._toggleNode(tr._editAction, true, 'jimu-state-disabled', 'jimu-icon-edit');
         this._validateLayerFields(tr);
       },
 
@@ -615,7 +613,6 @@ define([
                 domAttr.set(layerTd, "title", layer.name);
                 this._validLayer = true;
                 this._updateOk();
-                this._toggleNode(tr._editAction, true, 'jimu-state-disabled', 'jimu-icon-edit');
               }));
             }));
             tr.symbolPicker.showBySymbol(jsonUtils.fromJson(layerSettings[i].symbol));
@@ -935,18 +932,18 @@ define([
       //XY Fields
       _setDefaultXYFields: function () {
         this.config.defaultXYFields = [{
-          "fieldName": this.nls.xyFieldsX,
+          "fieldName": 'X',
           "alias": this.nls.xyFieldsLabelX,
           "label": this.nls.xyFieldsLabelX,
           "visible": true,
-          "isRecognizedValues": [this.nls.xyFieldsX, this.nls.longitude, this.nls.lon, this.nls.easting],
+          "isRecognizedValues": ['X', this.nls.xyFieldsX, this.nls.longitude, this.nls.lon, this.nls.easting],
           "type": "STRING"
         }, {
-          "fieldName": this.nls.xyFieldsY,
+          "fieldName": 'Y',
           "alias": this.nls.xyFieldsLabelY,
           "label": this.nls.xyFieldsLabelY,
           "visible": true,
-          "isRecognizedValues": [this.nls.xyFieldsY, this.nls.latitude, this.nls.lat, this.nls.northing],
+          "isRecognizedValues": ['Y', this.nls.xyFieldsY, this.nls.latitude, this.nls.lat, this.nls.northing],
           "type": "STRING"
         }];
       },

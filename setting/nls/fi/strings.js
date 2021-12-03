@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Tämä pienoisohjelma avustaa aineiston käsittelyssä ja lähettämisessä tiedostosta valittuun kartan karttatasoon.<br/> <br/> Tiedoston arvojen on oltava eroteltu pilkuin, sarkaimin, puolipistein tai pystyviivoin.",
   "noTargetLayerConfiguredErrorMsg": "Yhtään kohdekarttatasoa ei ole määritetty",
   "noFieldsForTargetLayer": "Karttatason asetuksia ei ole määritetty kohdekarttatasolle",
-  "locationSettingsNotConfigured": "Sijaintiasetuksia ei ole määritetty oikein"
+  "locationSettingsNotConfigured": "Sijaintiasetuksia ei ole määritetty oikein",
+  "questionMark": "tulisi käyttää?"
 });

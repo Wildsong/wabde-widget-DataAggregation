@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "וידג'ט זה יסייע בעיבוד ובשליחה של נתונים מקובץ לשכבה שנבחרה במפה.<br/> <br/> יש להפריד בין ערכים בתוך הקובץ באמצעות פסיק, טאב, נקודה-פסיק או קו אנכי.",
   "noTargetLayerConfiguredErrorMsg": "לא הוגדרה שכבת יעד",
   "noFieldsForTargetLayer": "הגדרות שכבה לא הוגדרו עבור שכבת היעד",
-  "locationSettingsNotConfigured": "הגדרות מיקום לא נקבעו כהלכה"
+  "locationSettingsNotConfigured": "הגדרות מיקום לא נקבעו כהלכה",
+  "questionMark": "?"
 });

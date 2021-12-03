@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Šis valdiklis padės apdoroti ir pateikti failo duomenis pasirinktame žemėlapio sluoksnyje.<br/> <br/> Reikšmės faile turi būti atskirtos kableliais, tabuliavimo žingsniais, kabliataškiais arba vertikaliaisiais brūkšniais.",
   "noTargetLayerConfiguredErrorMsg": "Tikslinis sluoksnis nesukonfigūruotas",
   "noFieldsForTargetLayer": "Neapibrėžti tikslinio sluoksnio nustatymai",
-  "locationSettingsNotConfigured": "Vietos nustatymai sukonfigūruoti netinkamai"
+  "locationSettingsNotConfigured": "Vietos nustatymai sukonfigūruoti netinkamai",
+  "questionMark": "?"
 });

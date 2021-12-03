@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Denne widget vil hjælpe med at behandle og sende data fra en fil til det valgte lag i kortet.<br/> <br/> Værdierne i filen skal være adskilt af komma, tabulator, semikolon eller en lodret streg.",
   "noTargetLayerConfiguredErrorMsg": "Der er ikke konfigureret noget destinationslag",
   "noFieldsForTargetLayer": "Der er ikke defineret lag-indstillinger for destinationslaget",
-  "locationSettingsNotConfigured": "Positions-indstillingerne er ikke korrekt konfigureret"
+  "locationSettingsNotConfigured": "Positions-indstillingerne er ikke korrekt konfigureret",
+  "questionMark": "?"
 });

@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Questo widget assisterà nell’elaborazione e nell’invio di dati da un file al layer selezionato nella mappa.<br/> <br/> I valori all’interno del file devono essere delimitati da virgola, tab, punto e virgola o barra verticale.",
   "noTargetLayerConfiguredErrorMsg": "Nessun layer di destinazione configurato",
   "noFieldsForTargetLayer": "Le impostazioni del layer non sono definite per il layer di destinazione",
-  "locationSettingsNotConfigured": "Le impostazioni di posizione non sono configurate correttamente"
+  "locationSettingsNotConfigured": "Le impostazioni di posizione non sono configurate correttamente",
+  "questionMark": "?"
 });

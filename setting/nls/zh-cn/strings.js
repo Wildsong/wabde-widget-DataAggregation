@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "此微件将帮助处理文件中的数据并将其提交到地图中的所选图层。<br/> <br/> 文件中的值必须用逗号、制表符、分号或竖线分隔。",
   "noTargetLayerConfiguredErrorMsg": "未配置目标图层",
   "noFieldsForTargetLayer": "未定义目标图层的图层设置",
-  "locationSettingsNotConfigured": "位置设置未正确配置"
+  "locationSettingsNotConfigured": "位置设置未正确配置",
+  "questionMark": "?"
 });

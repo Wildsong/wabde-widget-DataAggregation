@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Deze widget helpt bij het verwerken en verzenden van gegevens van een bestand naar de geselecteerde laag op de kaart.<br/><br/> Waarden in het bestand moeten worden gescheiden door een komma, tab, puntkomma of verticale streep.",
   "noTargetLayerConfiguredErrorMsg": "Geen doellaag geconfigureerd",
   "noFieldsForTargetLayer": "Laaginstellingen zijn niet gedefinieerd voor de doellaag",
-  "locationSettingsNotConfigured": "Locatie-instellingen zijn niet goed geconfigureerd"
+  "locationSettingsNotConfigured": "Locatie-instellingen zijn niet goed geconfigureerd",
+  "questionMark": "?"
 });

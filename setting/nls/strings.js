@@ -63,7 +63,8 @@ define({
     defaultStartPageInstructions: "This widget will assist with processing and submitting data from a file to the selected layer in the map.<br/> <br/> Values within the file must be delimited by comma, tab, semi-colon, or vertical bar.",
     noTargetLayerConfiguredErrorMsg: "No target layer configured",
     noFieldsForTargetLayer: "Layer settings are not defined for the target layer",
-    locationSettingsNotConfigured: "Location settings are not properly configured"
+    locationSettingsNotConfigured: "Location settings are not properly configured",
+    questionMark: "?"
   }),
   "ar": 1,
   "bs": 1,

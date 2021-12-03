@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Ta pripomoček vam bo v pomoč pri obdelavi in pošiljanju podatkov iz datoteke v izbrani sloj na karti.<br/> <br/> Vrednosti znotraj datoteke morajo biti ločene z vejico, presledkom, podpičjem ali navpičnico.",
   "noTargetLayerConfiguredErrorMsg": "Noben ciljni sloj ni konfiguriran",
   "noFieldsForTargetLayer": "Nastavitve sloja niso opredeljene za ciljni sloj",
-  "locationSettingsNotConfigured": "Nastavitve lokacije niso ustrezno konfigurirane"
+  "locationSettingsNotConfigured": "Nastavitve lokacije niso ustrezno konfigurirane",
+  "questionMark": "?"
 });

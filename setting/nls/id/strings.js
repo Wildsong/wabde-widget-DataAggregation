@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Widget ini akan membantu pemrosesan dan pengiriman data dari file ke layer yang dipilih di peta.<br/> <br/>Nilai dalam file harus tidak dibatasi koma, tab, titik koma, atau bilah vertikal.",
   "noTargetLayerConfiguredErrorMsg": "Tidak ada layer target yang dikonfigurasikan",
   "noFieldsForTargetLayer": "Pengaturan layer tidak ditentukan dari layer target",
-  "locationSettingsNotConfigured": "Pengaturan lokasi tidak dikonfigurasikan secara tepat"
+  "locationSettingsNotConfigured": "Pengaturan lokasi tidak dikonfigurasikan secara tepat",
+  "questionMark": "?"
 });

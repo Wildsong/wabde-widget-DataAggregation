@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Ovaj widget će pomoći pri obradi i predaji podataka iz datoteke na odabrani sloj na mapi.<br/> <br/> Vrijednosti unutar datoteke moraju biti ograničene zarezom, tabom, točkom sa zarezom ili uspravnom trakom.",
   "noTargetLayerConfiguredErrorMsg": "Nijedan ciljni sloj nije konfiguriran",
   "noFieldsForTargetLayer": "Postavke sloja nisu definirane za ciljni sloj",
-  "locationSettingsNotConfigured": "Lokacijske postavke nisu pravilno konfigurirane"
+  "locationSettingsNotConfigured": "Lokacijske postavke nisu pravilno konfigurirane",
+  "questionMark": "?"
 });

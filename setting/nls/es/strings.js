@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Este widget le ayudará a procesar y enviar datos de un archivo a la capa seleccionada del mapa.<br/> <br/> Los valores contenidos en el archivo se deben delimitar por comas, tabulaciones, puntos y coma o barras verticales.",
   "noTargetLayerConfiguredErrorMsg": "No hay ninguna capa de destino configurada",
   "noFieldsForTargetLayer": "Los ajustes de capa no se han definido para la capa de destino",
-  "locationSettingsNotConfigured": "Los ajustes de ubicación no se han configurado correctamente"
+  "locationSettingsNotConfigured": "Los ajustes de ubicación no se han configurado correctamente",
+  "questionMark": "?"
 });

@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Dieses Widget unterstützt die Verarbeitung von Daten und deren Übermittlung von einer Datei an den ausgewählten Layer in der Karte.<br/> <br/> Werte innerhalb der Datei müssen durch ein Komma, einen Tabulator, ein Semikolon oder einen vertikalen Balken getrennt sein.",
   "noTargetLayerConfiguredErrorMsg": "Kein Ziel-Layer konfiguriert.",
   "noFieldsForTargetLayer": "Layer-Einstellungen sind für den Ziel-Layer nicht konfiguriert.",
-  "locationSettingsNotConfigured": "Positionseinstellungen sind nicht ordnungsgemäß konfiguriert."
+  "locationSettingsNotConfigured": "Positionseinstellungen sind nicht ordnungsgemäß konfiguriert.",
+  "questionMark": "?"
 });

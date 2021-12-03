@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "此 widget 將協助處理檔案的資料，並將該資料提交到地圖的選定圖層。<br/> <br/> 必須以逗號、tab、分號或垂直軸隔檔案中的值。",
   "noTargetLayerConfiguredErrorMsg": "未配置目標圖層",
   "noFieldsForTargetLayer": "未針對目標圖層定義圖層設定",
-  "locationSettingsNotConfigured": "未適當配置位置設定"
+  "locationSettingsNotConfigured": "未適當配置位置設定",
+  "questionMark": "?"
 });

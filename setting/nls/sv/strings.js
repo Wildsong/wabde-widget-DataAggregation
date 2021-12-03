@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Den här widgeten hjälper till med bearbetning och överföring av data från en fil till det valda lagret i kartan.<br/> <br/>Värden i filen måste avgränsas med komma, tabb, semikolon eller vertikalstreck.",
   "noTargetLayerConfiguredErrorMsg": "Inget mållager är konfigurerat",
   "noFieldsForTargetLayer": "Lagerinställningar är inte definierade för mållagret",
-  "locationSettingsNotConfigured": "Platsinställningarna är inte korrekt konfigurerade"
+  "locationSettingsNotConfigured": "Platsinställningarna är inte korrekt konfigurerade",
+  "questionMark": "?"
 });

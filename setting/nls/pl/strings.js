@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Ten widżet ułatwia przetwarzanie i wysłanie danych z pliku do wybranej warstwy na mapie.<br/> <br/> Wartości w pliku muszą być rozdzielane przecinkami, tabulatorami, średnikami lub kreskami pionowymi.",
   "noTargetLayerConfiguredErrorMsg": "Nie skonfigurowano warstwy docelowej",
   "noFieldsForTargetLayer": "Nie zdefiniowano ustawień warstwy docelowej",
-  "locationSettingsNotConfigured": "Ustawienia lokalizacji nie są prawidłowo skonfigurowane"
+  "locationSettingsNotConfigured": "Ustawienia lokalizacji nie są prawidłowo skonfigurowane",
+  "questionMark": "?"
 });

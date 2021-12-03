@@ -720,7 +720,7 @@ define(['dojo/_base/declare',
             width: "100%",
             height: "32px"
           },
-          title: value,
+          title: value === undefined || value === null ? '' : value,
           invalidMessage: this.nls.review.valuesDoNotMatch
         });
         valueTextBox.decimalSeperator = this.csvStore.decimalSeperator;
@@ -822,7 +822,7 @@ define(['dojo/_base/declare',
               width: "100%",
               height: "32px"
             },
-            title: value
+            title: value === undefined || value === null ? '' : value
           });
         }
         valueTextBox.decimalSeperator = this.csvStore.decimalSeperator;
@@ -860,11 +860,20 @@ define(['dojo/_base/declare',
         } else if (isAddress) {
           tr.addressValueTextBox = valueTextBox;
           tr.addressValue = value;
+          //Add validator based on the field configuration
+          if (this._featureToolbar && tr.keyField === this._featureToolbar.xField) {
+            this._longCoordsTextBox = valueTextBox;
+            valueTextBox.validator = lang.hitch(this, this._validateLongitude);
+          }
+          if (this._featureToolbar && tr.keyField === this._featureToolbar.yField) {
+            this._latCoordsTextBox = valueTextBox;
+            valueTextBox.validator = lang.hitch(this, this._validateLatitude);
+          }
         } else {
           tr.layerValueTextBox = valueTextBox;
           tr.layerValue = value;
         }
-
+        var _this = this;
         valueTextBox.on("keyUp", function (v) {
           var valueChanged;
           var changeIndex;
@@ -878,7 +887,16 @@ define(['dojo/_base/declare',
             } else if (changeIndex > -1 && !valueChanged) {
               this.parent._changedAddressRows.splice(changeIndex, 1);
             }
-            this.parent.emit('address-change', this.parent._changedAddressRows.length > 0);
+
+
+            var isValid = this.parent._changedAddressRows.length > 0;
+            if (_this._latCoordsTextBox && !_this._latCoordsTextBox.isValid()) {
+              isValid = false;
+            }
+            if (_this._longCoordsTextBox && !_this._longCoordsTextBox.isValid()) {
+              isValid = false;
+            }
+            this.parent.emit('address-change', isValid);
           } else {
             var isValid = this.validate();
             this.row._isValid = isValid;
@@ -911,6 +929,34 @@ define(['dojo/_base/declare',
         });
       },
 
+      _validateLongitude: function () {
+        if (this._longCoordsTextBox &&
+          this._longCoordsTextBox.displayedValue === "") {
+          return false;
+        }
+        var value = Number(this._longCoordsTextBox.value);
+        //Validate longitude
+        if (!isNaN(value) && (value >= -180 && value <= 180)) {
+          return true;
+        } else {
+          return false;
+        }
+      },
+
+      _validateLatitude: function () {
+        if (this._latCoordsTextBox &&
+          this._latCoordsTextBox.displayedValue === "") {
+          return false;
+        }
+        var value = Number(this._latCoordsTextBox.value);
+        //Validate latitude
+        if (!isNaN(value) && (value >= -90 && value <= 90)) {
+          return true;
+        } else {
+          return false;
+        }
+      },
+
       _getField: function (tr) {
         var field;
         for (var i = 0; i < this.csvStore.fsFields.length; i++) {
@@ -927,8 +973,9 @@ define(['dojo/_base/declare',
         //if the decimal seperator is not . and we have coordinates or float field type localize the number on format and revert on parse
         if (valueTextBox.decimalSeperator !== '.') {
           if ((isAddress && !this.csvStore.useAddr) || (field && field.type && field.type === 'float')) {
-            valueTextBox.title = [null, undefined, ''].indexOf(v) !== -1 ?
+            var valueTextBoxTitle = [null, undefined, ''].indexOf(v) !== -1 ?
               '' : (!isNaN(v) && valueTextBox.decimalSeperator !== '.') ? jimuUtils.localizeNumber(v) : v;
+            valueTextBox.set("title", valueTextBoxTitle);
             valueTextBox.format = function (value) {
               if ([null, undefined, ''].indexOf(value) === -1 && !isNaN(value)) {
                 var _v = jimuUtils.localizeNumber(value);

@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Acest widget vă va ajuta la prelucrarea și transmiterea datelor dintr-un fișier către stratul tematic selectat din hartă.<br/> <br/> Valorile din fișier trebuie să fie delimitate de virgulă, tabulator, punct și virgulă sau bară verticală.",
   "noTargetLayerConfiguredErrorMsg": "Nu este configurat niciun strat tematic țintă",
   "noFieldsForTargetLayer": "Setările de strat tematic nu sunt definite pentru stratul tematic țintă",
-  "locationSettingsNotConfigured": "Setările de localizare nu sunt configurate în mod adecvat"
+  "locationSettingsNotConfigured": "Setările de localizare nu sunt configurate în mod adecvat",
+  "questionMark": "?"
 });

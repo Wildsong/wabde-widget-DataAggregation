@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Tento widget bude asistovať so spracovaním a odoslaním dát zo súboru do vybranej vrstvy v mape.<br/><br/> Hodnoty v súbore musia byť ohraničené čiarkou, tabulátorom, bodkočiarkou alebo zvislou čiarou.",
   "noTargetLayerConfiguredErrorMsg": "Nie je konfigurovaná žiadna cieľová vrstva",
   "noFieldsForTargetLayer": "Nastavenia vrsty nie sú pre cieľovú vrstvu definované",
-  "locationSettingsNotConfigured": "Nastavenia lokalizácie nie sú správne konfigurované"
+  "locationSettingsNotConfigured": "Nastavenia lokalizácie nie sú správne konfigurované",
+  "questionMark": "?"
 });

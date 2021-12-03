@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Bu gereç bir dosyadaki verilerin işlenmesine ve haritadaki seçili katmana gönderilmesine yardımcı olur.<br/> <br/> Dosyadaki değerler virgül, sekme, noktalı virgül veya dikey çubukla sınırlandırılmalıdır.",
   "noTargetLayerConfiguredErrorMsg": "Yapılandırılan hedef katman yok",
   "noFieldsForTargetLayer": "Katman ayarları hedef katman için tanımlanmamış",
-  "locationSettingsNotConfigured": "Yer ayarları düzgün yapılandırılmamış"
+  "locationSettingsNotConfigured": "Yer ayarları düzgün yapılandırılmamış",
+  "questionMark": "?"
 });

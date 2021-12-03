@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "Tiện ích này sẽ hỗ trợ việc xử lý và gửi dữ liệu từ tệp đến lớp được chọn trong bản đồ.<br/> <br/> Các giá trị trong tệp phải được phân cách bằng dấu phẩy, tab, dấu chấm phẩy hoặc dấu gạch đứng. Tiện ích này sẽ hỗ trợ việc xử lý và gửi dữ liệu từ tệp đến lớp được chọn trong bản đồ.<br/> <br/> Các giá trị trong tệp phải được phân cách bằng dấu phẩy, tab, dấu chấm phẩy hoặc dấu gạch đứng.",
   "noTargetLayerConfiguredErrorMsg": "Không có lớp mục tiêu nào được cấu hình",
   "noFieldsForTargetLayer": "Các thiết lập lớp không được xác định cho lớp mục tiêu",
-  "locationSettingsNotConfigured": "Thiết lập vị trí không được cấu hình đúng"
+  "locationSettingsNotConfigured": "Thiết lập vị trí không được cấu hình đúng",
+  "questionMark": "?"
 });

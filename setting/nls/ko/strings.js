@@ -62,5 +62,6 @@ define({
   "defaultStartPageInstructions": "이 위젯을 사용하면 파일에서 가져온 데이터를 처리하여 맵의 선택된 레이어에 제출할 수 있습니다.<br/> <br/> 파일 내의 값은 쉼표, 탭, 세미콜론 또는 수직 막대로 구분되어 있어야 합니다.",
   "noTargetLayerConfiguredErrorMsg": "구성된 대상 레이어가 없음",
   "noFieldsForTargetLayer": "대상 레이어의 설정이 정의되지 않았습니다.",
-  "locationSettingsNotConfigured": "위치 설정이 제대로 구성되지 않았습니다."
+  "locationSettingsNotConfigured": "위치 설정이 제대로 구성되지 않았습니다.",
+  "questionMark": "?"
 });
